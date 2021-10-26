@@ -66,6 +66,7 @@ public class Guesser {
                 System.out.println("Invalid reply. Please enter either T of F.");
             }
         } while (true);
+        scanner.close();
         return reply;
     }
 
