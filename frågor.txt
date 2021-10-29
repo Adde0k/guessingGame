@@ -1,18 +1,23 @@
 När använder man add respektive commit?
 - Add används när du vill lägga till filer i "kön" att bli committade(staging area). Du kan välja specifikt
 - vilken/vilka filer du vill lägga till, eller använda "." för att lägga till alla filer i din working directory.
-- Commit använder du när du ska "commita" dina filer i staging arean, oftast med ett meddelande så att du kan hålla
-- koll på vad som ändrats. Commit används som dokumentation kring ändringar under programmets skapelse.
+-
+- Commit använder du när du ska "commita" dina filer ifrån staging area till commit history, oftast med ett meddelande
+- så att du kan hålla koll på vad som ändrats. Commit används som dokumentation kring ändringar under programmets skapelse,
+- eller om du skulle vilja/behöva gå tillbaks till en tidigare version utav programmet.
 
 Vad är pull repektive push?
-- Med Pull så laddar du ner/syncar du din working directory med en remote repository, t.ex GitHub.
+- Med Pull så laddar du ner från, eller syncar din working directory, med en remote repository så som GitHub.
+-
 - Med Push så laddar du upp dina commitade filer till ett remote repository.
 
 När använder man log respektive status?
-- Status använder du för att få fram info kring ditt projekt, så som filer du kan använda/har användt add på,
-- eller filer du kan commita.
-- Log använder du när du vill visa en lista med commits du har gjort i den aktuella branchen,
+- Log använder du när du vill visa en lista med commits du har gjort i den aktuella branchen(commit history),
 - inklusive meddelandet och commit-nummer. 
+-
+- Status använder du för att få fram info kring ditt projekt, så som filer du kan använda/har användt add på,
+- eller filer du kan commita. Du får även fram information kring vilken branch du befinner dig i, och tips på
+- vad du kan göra, t.ex att du kan pusha dina commits.
 
 Hur kan man formulera sig i sina commit-meddelanden?
 - Jag skulle säga att man ska vara kortfattad och tydlig. Du ska lätt kunna identifiera vart i utvecklingsprocessen
